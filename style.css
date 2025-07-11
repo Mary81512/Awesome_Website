@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+    margin: 0;
     
    
 }
@@ -13,9 +14,10 @@ body {
     justify-content: end;
     align-items: center;
     background-color: rgb(63, 91, 92);
-    position: fixed;
+    
     margin-top: 20px;
     width: 100%;
+    
 }
 ul {
     display: flex;
@@ -26,8 +28,56 @@ ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo {
-    position: absolute;
-    top: -30px;
+    position: fixed;
+    
     left: 30px;
 
+}
+
+.container.one {
+    background-color: rgb(63, 91, 92);
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.frontpage {
+    width: 400px;
+    height: 200px;
+    flex-grow: 0;
+    
+    
+}
+.contentone {
+    flex: 1;
+}
+.sign-up {
+    background-color: rgb(91, 163, 163);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container {
+    flex: 1;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container.two {
+    background-color: rgb(118, 192, 192);
+}
+.container.three {
+    background-color: rgb(171, 222, 222);;
+}
+.container.four {
+    background-color: rgb(204, 241, 241);;
+}
+.footer {
+    background-color: rgb(91, 163, 163);
 }

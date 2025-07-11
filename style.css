@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     background-color: antiquewhite;
     margin: 0;
+    justify-content: space-between;
     
    
 }
@@ -14,8 +15,6 @@ body {
     justify-content: end;
     align-items: center;
     background-color: rgb(63, 91, 92);
-    
-    
     width: 100%;
     
 }
@@ -49,7 +48,7 @@ ul {
 
 .frontpage {
     width: 500px;
-    height: 300px;
+    height: auto;
     flex: none;
 }
 .text {
@@ -108,6 +107,8 @@ h1 {
 }
 .footer {
     background-color: rgb(91, 163, 163);
+    padding: 10px;
+    
 }
 .pic {
     width: 200px;
@@ -144,12 +145,39 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 
 }
 .call { 
     background-color: aliceblue;
+    padding: 50px;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+
 }
-.textto {
+.textto, h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkcyan;
+    padding: 0px;
+    margin: 0px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    border: 0px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+.footer {
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: wavy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -15,7 +15,7 @@ body {
     align-items: center;
     background-color: rgb(63, 91, 92);
     
-    margin-top: 20px;
+    
     width: 100%;
     
 }
@@ -29,8 +29,8 @@ ul {
 }
 .logo {
     position: fixed;
-    
     left: 30px;
+    margin-top: 50px;
 
 }
 
@@ -40,26 +40,35 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
+    font-size: 28px;
+    font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .frontpage {
-    width: 400px;
-    height: 200px;
-    flex-grow: 0;
-    
-    
+    width: 500px;
+    height: 300px;
+    flex: none;
+}
+.text {
+    color:antiquewhite;
+    margin-top: -20px;
+}
+h1 { 
+    font-variant: small-caps;
+    color: aliceblue;
 }
 .contentone {
     flex: 1;
 }
 .sign-up {
     background-color: rgb(91, 163, 163);
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
 }
 .container {
     flex: 1;
@@ -71,6 +80,20 @@ ul {
 }
 .container.two {
     background-color: rgb(118, 192, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 20px;
+}
+.illustrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+
 }
 .container.three {
     background-color: rgb(171, 222, 222);;

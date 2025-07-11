@@ -55,6 +55,8 @@ ul {
 .text {
     color:antiquewhite;
     margin-top: -20px;
+    
+    
 }
 h1 { 
     font-variant: small-caps;
@@ -83,24 +85,71 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 100px;
-    gap: 20px;
+    justify-content: space around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 10px;
 }
 .illustrations {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    gap:20px;
     text-align: center;
-
+    gap: 60px;
+    flex-wrap: wrap;
 }
 .container.three {
     background-color: rgb(171, 222, 222);;
 }
 .container.four {
-    background-color: rgb(204, 241, 241);;
+    background-color: antiquewhite;
 }
 .footer {
     background-color: rgb(91, 163, 163);
+}
+.pic {
+    width: 200px;
+
+}
+.item {
+    width: 300px;
+    flex: 0;
+   
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+.biggertext {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    align-self: flex-start;
+}
+.autor {
+    align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.container.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.call { 
+    background-color: aliceblue;
+}
+.textto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
 }
